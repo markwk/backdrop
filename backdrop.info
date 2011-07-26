@@ -1,0 +1,11 @@
+name = Backdrop
+description = A Sparse Theme for Drupal 7 with customizable background image, intended for use with <a href="https://github.com/markwk/comingsoon_profile">"Coming Soon" Installation Profile</a> and <a href="https://github.com/markwk/comingsoon_features">Features</a>.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/style.css
+stylesheets[print][] = css/print.css
+
+regions[header] = Header
+regions[content] = Content
