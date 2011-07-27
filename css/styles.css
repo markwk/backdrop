@@ -1,0 +1,361 @@
+html {
+    background: #000 url('../images/lightblue_wallpaper.jpg') no-repeat center center fixed;
+    color: #A0A0A0;
+}
+a, a:link, a:hover, a:active {
+    color: #8498AC; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decordation: underline;
+}
+
+
+body {
+    color: #A0A0A0;
+    font-family: arial, verdana, sans;
+}
+
+#invitelist {
+    font-family: Georgia, Times, serif;
+    color: #E9E9E9;
+    font-size:120%;
+    text-align: left;
+    font-size: .78em;
+}
+
+#container {
+    text-align: center;
+}
+
+#content {
+    margin: 110px auto 0 auto;
+    width: 340px;
+    background: transparent url('../images/content_bg.png') 0 0 repeat;
+    padding: 20px;
+    position: relative;
+}
+
+#content-admin {
+    margin: 110px auto 0 auto;
+    width: 500px;
+    background-color:#000;
+    /* for IE */
+    filter:alpha(opacity=80);
+    /* CSS3 standard */
+    opacity:0.8;
+    padding: 20px;
+}
+
+#content p {
+    color: #FFF;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#learnmore {
+  clear: both;
+    width: 100%;
+    color: #A0A0A0;
+    text-align: right;
+}
+#makea {
+    color: #FFF;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    margin: 35px 0 40px;
+}
+
+#submit {
+    margin: 6px 0;
+    width: 50px;
+    height: 25px;
+    background:url("../images/Submit-Button.png") no-repeat center center fixed;
+    float:left;
+}
+
+.error {
+
+    clear: both;
+    color: #cc9999;
+}
+
+#shareurl {
+    font-size: 1.2em;
+    font-weight:bold;
+    width: 100%;
+    text-align: center;
+}
+
+#email {
+    border:0;
+    font: 14px bold helvetica, arial, sans-serif;
+    width: 260px;
+    float:left;
+    color:#333;
+    margin: 5px 7px 5px 0;
+    padding:5px 10px;
+    -moz-border-radius: 5px; /* FF1+ */
+    -webkit-border-radius: 5px; /* Saf3-4 */
+    border-radius: 5px; /* Opera 10.5, IE9, Saf5, Chrome */
+    outline:none;
+}
+
+#password {
+    border:0;
+    font: 14px bold helvetica, arial, sans-serif;
+    width: 300px;
+    float:left;
+    color:#333;
+    margin: 5px 10px 5px 0;
+    padding:5px 10px;
+    -moz-border-radius: 5px; /* FF1+ */
+    -webkit-border-radius: 5px; /* Saf3-4 */
+    border-radius: 5px; /* Opera 10.5, IE9, Saf5, Chrome */
+    outline:none;
+}
+
+#description {
+    text-align: left; 
+}
+
+#sharebuttons {
+    width: 100%;
+    text-align: center;
+    vertical-align: top;
+}
+
+#facebook {
+	float: left;
+	margin: 0 0 10px 100px;
+}
+#twitter {
+	float: left;
+	margin-left: 40px;
+}
+
+.clear {
+
+	clear: both;
+}
+
+#corner-banner { 
+    position: fixed;
+    left: -85px; 
+    top: 50px; 
+    display: block; 
+    width: 300px; 
+    background: #c00; 
+    background: -moz-linear-gradient(top, #c00 0%, #600 100%); 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c00), color-stop(100%,#600)); 
+    text-align:center; 
+    font-size:13px; 
+    line-height:13px; 
+    padding:3px 10px 4px 10px; 
+    text-shadow: #000 1px 1px 0; 
+    -webkit-transform: rotate(-45deg); 
+    -moz-transform: rotate(-45deg); 
+    transform: rotate(-45deg); 
+    box-shadow: rgba(0,0,0, 0.2) 0px 0px 6px; 
+    -moz-box-shadow: rgba(0,0,0, 0.2) 0px 0px 6px; 
+    -webkit-box-shadow: rgba(0,0,0, 0.2) 0px 0px 6px; 
+} 
+#corner-banner a:link,#corner-banner a:visited  {color:#fff;text-decoration: none;} 
+#corner-banner a:hover,#corner-banner a:focus  {color:#ccc;text-decoration: none;} 
+
+#stats {
+	color: white;
+	font-size: 25px;
+	text-shadow: #333 1px 1px 0;
+	padding: 50px 0 0 0;
+	
+}
+
+#middlebox {
+	width: 380px;
+	margin: 0px auto 0px auto;
+}	
+
+
+/*** Common Element Styling ***/
+.clear {
+  clear:both;
+}
+
+
+/*** Admin Page ***/
+form {
+  position:relative;
+}
+
+form label {
+  font-size:90%;
+  display: block;
+  clear:both;
+  color:#eee;
+  margin-top:10px;
+}
+
+form p.formHelp {
+  font-size:70%;
+  color:#aaa !important;
+  padding:4px 10px 12px;
+  margin:0;
+}
+
+form input[type=file] {
+  margin-top:10px;
+  color: white; /*chrome needs this*/
+}
+
+form textarea
+{
+  font-family: arial, verdana, sans;
+}
+form input[type=text], form input[type=password], form input[type=email], form textarea {
+  font-size:90%;
+  width: 318px;
+  padding: 5px 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color:#333;
+  border:1px solid #666;
+  margin: 5px 0 0 0;
+}
+
+form input.initialText {
+  color:#666;
+  font-style:italic;
+}
+
+form fieldset {
+  float:left;
+  clear:both;
+  border:none;
+  margin:20px 0 0;
+  padding:0;
+}
+
+form .submit {
+  float:right !important;
+  clear:both;
+  margin-top:10px;
+}
+
+form .errors, #errors {
+  color: #990000;
+  background-color:#ddd;
+  text-align: left;
+}
+
+.socialMessage
+{
+  width: 340px;
+}
+.socialMessage .preview
+{
+  margin: 5px 20px 5px;
+}
+.socialMessage .mutable
+{
+  color: #ccc;
+}
+.socialMessage.facebookMessage .immutable
+{
+  display: block;
+  font-weight: bold;
+}
+.socialMessage .immutable
+{
+  color: #888;
+}
+.socialMessage textarea
+{
+  display: none;
+  height: 60px;
+}
+#errors p
+{
+  color: #990000;
+}
+   .helpBox{
+            -moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+-moz-box-shadow:0 0 10px #333333;
+background:#D9DBDB none repeat scroll 0 0;
+left:425px;
+position:absolute;
+top:-25px;
+width:300px;
+text-align:left;
+}
+.helpBox h2{
+background-color:#444444;
+color:#FFFFFF;
+font-size:0.8em;
+font-weight:bold;
+margin:0;
+padding:10px 15px;
+text-align:left;
+}
+.helpBox .showHideHelp{
+    float:right;
+}
+.helpBox .helpContent {
+color:#333333;
+font-size:80%;
+padding:10px;
+}
+.helpBox .helpContent {
+color:#333333;
+
+padding:10px;
+}
+.helpBox .helpContent p{
+color:#333333 !important;
+
+padding:10px;
+}
+#sendmail textarea{
+    width:100%;
+    height:80px;
+
+}
+#senderName {
+width:100%
+}
+
+.assistly-widget{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+input.form-submit {
+    background: -moz-linear-gradient(center top , #6FA6DE, #5271A7) repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #402100 !important;
+    border-left: 1px solid #402100;
+    border-radius: 4px 4px 4px 4px;
+    border-right: 1px solid #402100;
+    border-top: 1px solid #402100;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.26), 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.17) inset;
+    color: white !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Helvetica';
+    font-size: 22px;
+    line-height: 44px;
+    opacity: 1;
+    padding: 0 24px;
+    text-align: center;
+    text-decoration: none;
+    text-rendering: optimizelegibility;
+    text-shadow: 0 -1px 0 #402100;
+}
