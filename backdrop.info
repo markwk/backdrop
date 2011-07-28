@@ -6,5 +6,12 @@ core = 7.x
 
 stylesheets[all][] = css/styles.css
 
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = favicon
+
 regions[content] = Content
 regions[footer] = Footer
+
+settings[copyright_information] = '© 2010 Your Name.'
